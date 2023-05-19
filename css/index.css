@@ -1,0 +1,36 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header{
+    background-color: maroon;
+}
+
+ul{
+    display: flex;
+    gap: 16px;
+}
+
+ul li{
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
