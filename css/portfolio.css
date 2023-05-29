@@ -1,0 +1,58 @@
+body{
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+.head{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.port{
+    display: flex;
+    margin-top: 50px;
+}
+
+.portcover{
+    display: flex;
+}
+
+.port1{
+    display: inline;
+}
+
+
+.portitem{
+    background-color: blanchedalmond;
+    box-shadow: 2px 5px 5px wheat;
+    width: 90%;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+.portitem:hover{
+    background-color: beige;
+}
+
+.list{
+    display: list-item;
+    list-style: none;
+
+}
+
+.list li{
+    padding: 5px;
+}
+
+div{
+    padding: 5px;
+}
+
+
+.imgg{
+    width: 50%;
+    height: 500px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
